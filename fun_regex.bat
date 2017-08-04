@@ -29,8 +29,6 @@ goto :eof
 
 goto :eof
 
-:: powershell -command "'acbacb' | Select-String -Pattern '^^^^a.*b$'  | ForEach {$_.Matches.Groups }  | ForEach { $_.Value } "
-
 :: The function creates global variables with the parsed results.
 :: ARG1 is the prefix name which will contains result
 :: ARG2 is the uri to parse
